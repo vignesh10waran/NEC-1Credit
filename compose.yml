@@ -1,1 +1,21 @@
-Update this file to add the content
+version: '3'
+
+
+
+services:
+
+  personal_api:
+
+    image: "vvraju056/22it056-personal-api"
+
+    container_name: personal_api
+
+    restart: always
+
+    ports:
+
+      - "56:5000"
+
+
+
+ Update this file to add the content
